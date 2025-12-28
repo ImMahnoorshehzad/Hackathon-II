@@ -1,0 +1,15 @@
+[project]
+name = "todo-app-phase-i-core"
+version = "1.0.0"
+description = "Todo App Phase I Core - A Python 3.13+ CLI todo application with in-memory storage"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0",
+    "pytest-cov>=7.0.0",
+]
